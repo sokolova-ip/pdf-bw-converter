@@ -18,18 +18,19 @@
 
 ```text
 pdf_bw_converter/
-├── examples/               # Примеры изображений
-├── src/                    # Исходный код
+├── src/                   # Исходный код
 │   ├── __init__.py
 │   ├── main.py            # Точка входа приложения
 │   ├── converter.py       # Логика конвертации PDF
 │   └── gui.py             # Графический интерфейс
-├── tests/                  # Модульные тесты
+├── examples/              # Примеры изображений
+├── tests/                 # Модульные тесты
 │   ├── __init__.py
 │   └── test_converter.py
-├── docs/                   # Документация
-│   └── README.md
-├── requirements.txt        # Зависимости
+├── docs/                  # Документация
+│   └── PDF to Black & White Converter - Техническая документация.md
+├── README.md
+├── requirements.txt       # Зависимости
 ├── setup.py               # Конфигурация пакета
 └── run.py                 # Скрипт запуска
 ```
