@@ -46,13 +46,21 @@ python run.py
 ## Структура проекта
 ```text
 pdf_bw_converter/
-├── src/           # Исходный код
-├── tests/         # Тесты
-├── docs/          # Документация
-├── examples/      # Пример изображения
-├── requirements.txt
-├── setup.py
-└── run.py
+├── src/                   # Исходный код
+│   ├── __init__.py
+│   ├── main.py            # Точка входа приложения
+│   ├── converter.py       # Логика конвертации PDF
+│   └── gui.py             # Графический интерфейс
+├── examples/              # Примеры изображений
+├── tests/                 # Модульные тесты
+│   ├── __init__.py
+│   └── test_converter.py
+├── docs/                  # Документация
+│   └── PDF to Black & White Converter - Техническая документация.md
+├── README.md
+├── requirements.txt       # Зависимости
+├── setup.py               # Конфигурация пакета
+└── run.py                 # Скрипт запуска
 ```
 ## Зависимости
 PyMuPDF==1.23.8
