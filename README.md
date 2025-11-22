@@ -16,6 +16,7 @@
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/sokolova-ip/pdf-bw-converter.git
+# перейдите в папку
 cd pdf_bw_converter
 ```
 
